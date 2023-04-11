@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv = "refresh" content = " time ; url = link"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Add a Question</title>
+  </head>
+  <body id="bodyQuestion">
+
+    <!-- add question section-->
+    <section class="question-section">
+        <label for="question">Question: </label>
+        <input type="text" id="question" name="question"><br>
+        <label for="optionA">option A: </label>
+        <input type="text" id="optionA" name="optionA"><br>
+        <label for="optionB">option B: </label>
+        <input type="text" id="optionB" name="optionB"><br>
+        <label for="optionC">option C: </label>
+        <input type="text" id="optionC" name="optionC"><br>
+        <label for="optionD">option D: </label>
+        <input type="text" id="optionD" name="optionD"><br>
+        <label for="correctOption">Correct option: </label>
+        <select id="correctOption" name="correctOption">
+            <option value="optionA">option A</option>
+            <option value="optionB">option B</option>
+            <option value="optionC">option C</option>
+            <option value="optionD">option D</option>
+        </select><br><br>
+        <input id="submit" onclick="Submit()" type="submit" value="Submit">
+    </section>
+
+  <script src="./questions.js"></script>
+</html>
